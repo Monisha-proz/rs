@@ -1,6 +1,41 @@
+@import "tailwindcss";
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Primary */
+  --primary-base: #f8be15;
+  --primary-shade-200: #c69811;
+  --primary-shade-400: #95720d;
+  --primary-shade-600: #634c08;
+  --primary-shade-800: #322604;
+  --primary-tint-200: #f9cb44;
+  --primary-tint-400: #fbd873;
+  --primary-tint-600: #fce5a1;
+  --primary-tint-800: #fef2d0;
+
+  /* Secondary */
+  --secondary-base: #642a1e;
+  --secondary-shade-200: #502218;
+  --secondary-shade-400: #3c1912;
+  --secondary-shade-600: #28110c;
+  --secondary-shade-800: #140806;
+  --secondary-tint-200: #83554b;
+  --secondary-tint-400: #a27f78;
+  --secondary-tint-600: #c1aaa5;
+  --secondary-tint-800: #e0d4d2;
+
+  /* Encarnado */
+  --danger-base: #fb0000;
+  --danger-shade-200: #c90000;
+  --danger-shade-400: #970000;
+  --danger-shade-600: #640000;
+  --danger-shade-800: #320000;
+  --danger-tint-200: #fc3333;
+  --danger-tint-400: #fd6666;
+  --danger-tint-600: #fd9999;
+  --danger-tint-800: #fecccc;
 }
 
 @media (prefers-color-scheme: dark) {
